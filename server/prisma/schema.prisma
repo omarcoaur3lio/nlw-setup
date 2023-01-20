@@ -55,5 +55,5 @@ model DayHabit {
   habit Habit @relation(fields: [habit_id], references: [id])
 
   @@unique([day_id, habit_id])
-  @@map("days_habits")
+  @@map("day_habits")
 }
