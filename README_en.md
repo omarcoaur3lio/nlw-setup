@@ -11,27 +11,27 @@
     <img alt="Marco Aurélio" src="https://img.shields.io/badge/-Marco Aurélio-000?style=flat&logo=Linkedin&logoColor=fff&labelColor=000" />
 </a>
 
-<a href="./README_en.md">
-    <img alt="Read in english" src="https://img.shields.io/badge/-Read in english-000?style=flat&logo=google-translate&logoColor=fff&labelColor=000" />
+<a href="./README.md">
+    <img alt="Leia em português" src="https://img.shields.io/badge/-Leia em português-000?style=flat&logo=google-translate&logoColor=fff&labelColor=000" />
 </a>
     </h1>
 </p>
 <br>
 
 <p align="center">
-  <a href="#speech_balloon-Sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#speech_balloon-Sobre">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#camera-Preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#framed_picture-Demonstração">Demonstração</a>
+  <a href="#rocket-Tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#framed_picture-Demonstration">Demonstration</a>
 </p>
 
 ## :speech_balloon: Sobre
 
-Esta aplicação foi desenvolvida durante o evento NLW-Setup da [Rocketseat](https://www.rocketseat.com.br/ignite).
+This application was developed during the NLW-Setup event of [Rocketseat](https://www.rocketseat.com.br/ignite).
 
-O **habits** é um aplicativo desenvolvido para realizar o monitoramento de hábitos diários.
+O **habits** is an application designed to monitor daily habits.
 
-Com ele é possível criar uma lista de hábitos para incorporar à sua rotina, e acompanhar através do resumo apresentado na aplicação, a frequência com que cada hábito está sendo praticado, permitindo que você visualize seu progresso ao longo do tempo e se motive a seguir em frente.
+With it, it is possible to create a list of habits to incorporate into your routine, and follow through the summary presented in the application, the frequency with which each habit is being practiced, allowing you to visualize your progress over time and motivate yourself to move on.
 
 ## :camera: Preview
 
@@ -39,7 +39,7 @@ Com ele é possível criar uma lista de hábitos para incorporar à sua rotina, 
   <img src=".github/cover.svg" width=80% />
 </div>
 
-## :rocket: Tecnologias
+## :rocket: Technologies
 
 - [ReactJS](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -53,10 +53,10 @@ Com ele é possível criar uma lista de hábitos para incorporar à sua rotina, 
 - [Prisma ORM](https://www.prisma.io/)
 - [Zod](https://github.com/colinhacks/zod)
 
-## :framed_picture: Demonstração
+## :framed_picture: Demonstration
 
 <div align="center">
   <img src=".github/demo.gif" width=80% />
 </div>
 
-<p align="center"> Feito com :purple_heart: </p>
+<p align="center"> Made with :purple_heart: </p>
