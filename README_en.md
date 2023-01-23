@@ -25,7 +25,7 @@
   <a href="#framed_picture-Demonstration">Demonstration</a>
 </p>
 
-## :speech_balloon: Sobre
+## :speech_balloon: About
 
 This application was developed during the NLW-Setup event of [Rocketseat](https://www.rocketseat.com.br/ignite).
 
