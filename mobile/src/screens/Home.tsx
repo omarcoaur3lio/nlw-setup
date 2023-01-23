@@ -1,6 +1,6 @@
-import { useNavigation } from "@react-navigation/native";
+import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import dayjs from "dayjs";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { View, Text, ScrollView, Alert } from "react-native";
 import { HabitDay, DAY_SIZE } from "../components/HabitDay";
 import { Header } from "../components/Header";
@@ -13,7 +13,7 @@ const datesFromYearStart = generateRangeDatesFromYearStart();
 const minimumSummaryDateSizes = 18 * 5;
 const amountOfDaysToFill = minimumSummaryDateSizes - datesFromYearStart.length;
 
-type SumaryProps = Array <{
+type SumaryProps = Array<{
   id: string;
   date: string;
   amount: number;
@@ -40,9 +40,9 @@ export function Home() {
     }
   }
 
-  useEffect(() => {
+  useFocusEffect(useCallback(() => {
     fetchData();
-  }, []);
+  }, []));
 
   if (loading) {
     return (
